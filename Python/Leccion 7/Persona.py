@@ -35,8 +35,8 @@ def sueldo(self):
 def sueldo (self):
     self._sueldo = sueldo
 
-def __str__(self): # Override == Sobrescribir
-    return f"Empleado: [Sueldo{self._sueldo} {super().__str__()}]"
+#def __str__(self): # Override == Sobrescribir
+   # return f"Empleado: [Sueldo{self._sueldo} {super().__str__()}]"
 
 
 empleado1 = Empleado("Matias",40,321321321)
